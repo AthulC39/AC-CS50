@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+            <link href="styles.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <title>A fun Quiz.</title>
+
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+
+                let correct1 = document.querySelector("#R1");
+            correct1.addEventListener("click",function() {
+                document.querySelector("#ans1").innerHTML = "Correct!";
+
+            });
+
+            let incorrect1 = document.querySelectorAll("#W1");
+            for(let i=0; i<incorrect1.length;i++){
+                incorrect1[i].addEventListener("click",function() {
+                document.querySelector("#ans1").innerHTML = "Incorrect!";
+
+            });
+
+                }
+
+
+                let correct2 = document.querySelector("#R2");
+            correct2.addEventListener("click",function() {
+                document.querySelector("#ans2").innerHTML = "Correct!";
+
+            });
+
+            let incorrect2 = document.querySelectorAll("#W2");
+            for(let i=0; i<incorrect2.length;i++){
+                incorrect2[i].addEventListener("click",function() {
+                document.querySelector("#ans2").innerHTML = "Incorrect!";
+
+            });
+
+                }
+
+
+                let correct3 = document.querySelector("#R3");
+            correct3.addEventListener("click",function() {
+                document.querySelector("#ans3").innerHTML = "Correct!";
+
+            });
+
+            let incorrect3 = document.querySelectorAll("#W3");
+            for(let i=0; i<incorrect3.length;i++){
+                incorrect3[i].addEventListener("click",function() {
+                document.querySelector("#ans3").innerHTML = "Incorrect!";
+
+            });
+
+                }
+
+                let correct4 = document.querySelector("#R4");
+            correct4.addEventListener("click",function() {
+                document.querySelector("#ans4").innerHTML = "Correct!";
+
+            });
+
+            let incorrect4 = document.querySelectorAll("#W4");
+            for(let i=0; i<incorrect4.length;i++){
+                incorrect4[i].addEventListener("click",function() {
+                document.querySelector("#ans4").innerHTML = "Incorrect!";
+
+            });
+
+                }
+
+                let correct5 = document.querySelector("#R5");
+            correct5.addEventListener("click",function() {
+                document.querySelector("#ans5").innerHTML = "Correct!";
+
+            });
+
+            let incorrect5 = document.querySelectorAll("#W3");
+            for(let i=0; i<incorrect5.length;i++){
+                incorrect5[i].addEventListener("click",function() {
+                document.querySelector("#ans5").innerHTML = "Incorrect!";
+
+            });
+
+                }
+
+
+
+
+            })
+
+        </script>
+
+    </head>
+
+
+    <body class="body">
+        <header class="banner">
+            Welcome to Athul's Homepage!
+            <div class="refer">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="something.html">Something</a>
+            </div>
+        </header>
+
+
+        <div>
+            <h1 class="coolHeader">Test your knowledge.</h1>
+            <br><br>
+
+            <div>
+                <h3 class="text">Which one is my favourite athlete?</h3>
+                <form class="quiz" onsubmit="return false">
+                    <button id="R1" type="submit"> <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"> </button>
+                    <button id="W1" type="submit"> <img class="image"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"> </button>
+                    <button id="W1" type="submit"> <img class="image" src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/09/896/500/Tom-Brady17.jpg?ve=1&tl=1"> </button>
+                    <button id="W1" type="submit"> <img class="image"  src="https://media.gettyimages.com/id/1166604519/photo/khabib-nurmagomedov-of-russia-stands-in-his-corner-between-rounds-of-his-lightweight.jpg?s=612x612&w=gi&k=20&c=_gyd-_-yDDrwoRlEtUuTO6frpMuztdPudsBzeL0CSNc="> </button>
+                </form>
+                <p id="ans1" class="text"></p>
+            </div>
+            <br><br><br>
+
+            <div>
+                <h3 class="text">Which one is my favourite anime?</h3>
+                <form class="quiz" onsubmit="return false">
+                    <button id="R2" type="submit"> <img class="image" src="https://m.media-amazon.com/images/M/MV5BOGJlNDM3ZjktOTNiNy00YmNmLWJlOGYtNDM4MTI2ZjRjOTNmXkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_.jpg"></button>
+                    <button id="W2" type="submit"> <img class="image"  src="https://static.wikia.nocookie.net/shingekinokyojin/images/d/d8/Attack_on_Titan_Season_1.jpg/revision/latest?cb=20211005182832"> </button>
+                    <button id="W2" type="submit"> <img class="image" src="https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"> </button>
+                    <button id="W2" type="submit"> <img class="image"  src="https://m.media-amazon.com/images/M/MV5BMTMwMDM4N2EtOTJiYy00OTQ0LThlZDYtYWUwOWFlY2IxZGVjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"> </button>
+                </form>
+                <p id="ans2" class="text"></p>
+            </div>
+            <br><br><br>
+
+            <div>
+                <h3 class="text">What is my favourite programming language?</h3>
+                <form class="quiz" onsubmit="return false">
+                    <button id="W3" type="submit"> <img class="image" src="https://www.ntuclearninghub.com/documents/51786/4216795/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476?t=1679043970578"></button>
+                    <button id="W3" type="submit"> <img class="image"  src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"> </button>
+                    <button id="R3" type="submit"> <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png"> </button>
+                    <button id="W3" type="submit"> <img class="image"  src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1"> </button>
+                </form>
+                <p id="ans3" class="text"></p>
+
+            </div>
+
+            <div>
+                <h3 class="text">What is my favourite food?</h3>
+                <form class="quiz" onsubmit="return false">
+                    <button id="W4" type="submit"> <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Burrito.JPG/800px-Burrito.JPG"></button>
+                    <button id="W4" type="submit"> <img class="image"  src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/02/chicken-biryani-recipe-500x375.jpg"> </button>
+                    <button id="W4" type="submit"> <img class="image" src="https://christieathome.com/wp-content/uploads/2023/05/Panda-Express-Chow-Mein-7.jpg"> </button>
+                    <button id="R4" type="submit"> <img class="image"  src="https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4.jpg"> </button>
+                </form>
+                <p id="ans4" class="text"></p>
+
+            </div>
+
+            <div>
+                <h3 class="text">What is my favourite video-game?</h3>
+                <form class="quiz" onsubmit="return false">
+                    <button id="W5" type="submit"> <img class="image" src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000010192/d7d122e8b5680f10d50587141a9f8c4fab17d8557b884a60531d16e861a70cb3"></button>
+                    <button id="R5" type="submit"> <img class="image"  src="https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg"> </button>
+                    <button id="W5" type="submit"> <img class="image" src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwiii/MWIII-REVEAL-FULL-TOUT.jpg"> </button>
+                    <button id="W5" type="submit"> <img class="image"  src="https://upload.wikimedia.org/wikipedia/en/a/aa/Outlast_cover.jpg"> </button>
+                </form>
+                <p id="ans5" class="text"></p>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
