@@ -1,144 +1,61 @@
-
-.refer {
-    display: flex;
-    justify-content: space-between;
-    color: #ffcccb;
-}
-
-.text {
-    padding-left: 5px;
-}
-
-.coolHeader {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    font-weight: bold;
-    font-size: 50px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-}
-
-.slider {
-    position: relative;
-    list-style: none;
-    height: 100%;
-    width: 100%;
-    padding: 0;
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
     margin: 0;
-    transition: all 750ms ease;
-    left: 0;
+    text-align: left;
 }
 
-.sliderImage {
-    position: relative;
-    height: 100%;
-    float: left;
-    width: 1200px;
-    height: 700px;
+.show {
+    display: flex;
 }
 
+.demo {
+    display: none;
+}
 
 .container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2fr 2fr;
-    column-gap: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.slideshow {
-    width: 100%;
-    height: 100vh;
-    background #222;
+.inputBox {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.button {
     display: flex;
-    aling-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.swiper {
-    width: 80%;
-    height: fit-content;
-}
-
-.swipe {
-    height: 1300px;
-    width: 1500px;
-}
-
-.swiper-slide {
-    width: fit-content;
-    height: fit-content;
-
-}
-
-.quiz {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    column-gap: 100px;
-    max-width: 1920px;
-}
-
-.image {
-    width: 350px;
-    height: 350px;
-}
-
-.h1 {
-    font-weight: bold;
-    font-size: 50px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-}
-
-.text {
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-}
-
-
-
-.body {
-    background-color: #ffcccb;
-}
-
-
-.banner {
-    background-image: url("https://wallpaperaccess.com/full/8604388.jpg");
-    background-color: transparent;
-    max-height: 100%;
-    max-width: 100%;
-    color: #FF160C;
+.header {
+    background-color: #477bff;
+    color: #fff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     text-align: center;
-    font-size: 40px;
-    font-family:'Abel';
-    font-weight: bold;
-    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
-.img {
-    height: auto;
-    width: auto;
-    border: 5px solid #FF7F50;
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
 }
 
-.box {
-    margin: 5%;
-    position: relative;
-    left: 210px;
-    width: 1200px;
-    height: 700px;
-
-    overflow: hidden;
-    box-shadow: 0 0 60px rgba(0,0,0,1);
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
 
 button, input[type="submit"] {
     background-color: #d9edff;
@@ -152,6 +69,7 @@ button, input[type="submit"] {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     vertical-align: middle;
 }
+
 
 input[type="text"] {
     line-height: 1.8;

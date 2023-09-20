@@ -1,3 +1,11 @@
-wThe THIEF is: BRUCE
-The city the thief ESCAPED TO: NEW YORK CITY
-The ACCOMPLICE is: ROBIN
+sort1 uses: Bubble Sort
+
+How do you know?: Since Bubble sort begins at start of an array, and the next two elements proceeding that, it makes sense that the reversed list would take significantly longer than the ordered one(which it does);
+
+sort2 uses: Merge Sort
+
+How do you know?: Is the fastest of all 3 algorithms by far, which makes sense considering it's runtime.
+
+sort3 uses: Selection Sort
+
+How do you know?: By process of elimination this would be selection sort, however that also does make sense because the runtime for all 3 types of text are relatively linear in terms of how long they took.
